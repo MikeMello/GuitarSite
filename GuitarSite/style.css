@@ -17,7 +17,7 @@ body{
 }
 /*section-title*/
 .section-title--special{
-  background:var(--transparentBlue);/*Not Working?? Tutorial-106:00ish*/
+  background:var(--transparentBlue);/*Not Working?*/
   color:var(--mainBlack);
   padding: 0.5rem 2rem;
   clip-path:polygon(10% 0, 100% 0, 90% 100%, 0 100%);
@@ -60,7 +60,7 @@ navbar-toggler{
   overflow:hidden;
 }
 .height-max{
-  min-height:calc(100vh - 58.33px);/*will have to change/update px when adding a logo, tutorial:47:00 mark*/
+  min-height:calc(100vh - 58.33px);/*will have to change/update px when adding a logo*/
   background:url('../Images/guitarsphoto.jpeg');
   background-position: center;
   background-size:cover;

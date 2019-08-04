@@ -28,12 +28,12 @@ function produceGuitars(){
   makeGuitar('Ibanez', 'RGAT62','Images/Ibanez-RGAT62-599.99.png',true,599.99,'electric',"Solid",'6');
   makeGuitar('Alvarez','AD30','Images/Alvarez-ad30-259.99.png',true,259.00,'acoustic','Hollow','6');
   makeGuitar('GretschElectromatic','Center Block Jr','Images/GretschElectromatic-CenterBlockJr-899.99.png',true,499.99,'electric',"Semi-Hollow",'6');
-  makeGuitar('Ibanez','RG752','Images/Ibanez-RG752-7string-1599.99.png',true,1599.99,'electric',"solid",'6');
+  makeGuitar('Ibanez','RG752','Images/Ibanez-RG752-7string-1599.99.png',true,1599.99,'electric',"solid",'7');
   makeGuitar('LTD','EC401','Images/LTD-EC401-699.00.png',true,699.00,'electric',"solid",'6');
   makeGuitar('Schecter','TSH-1B','Images/Schecter-TSH-1b-899.00.png',false,499.99,'electric',"Semi-Hollow",'6');
   makeGuitar('Taylor','100 Series','Images/Taylor-100series-899.00.png',false, 899.00,'acoustic','Hollow','6');
-  makeGuitar('Marshall','DSL 40W','Images/Marshall-DSL-40W-749.99.png',false,749.99,'amp','Tube','40W');
-  makeGuitar('Orange','PPC 60W','Images/orange-PPC-60W-379.00.png',false,749.99,'amp','Tube','40W');
+  makeGuitar('Marshall','DSL 40W','Images/Marshall-DSL-40W-749.99.png',false,749.99,'amps','Tube','40W');
+  makeGuitar('Orange','PPC 60W','Images/orange-PPC-60W-379.00.png',false,749.99,'amps','Tube','40W');
 }
 produceGuitars();
 //console.log(guitars);
@@ -66,7 +66,7 @@ data += `<!--single item-->
 <div class ="featured-item my-3 d-flex p-2 text-capitalize align-items-baseline flex-wrap">
 <span data-img="${item.img}" class="featured-icon mr-2">
 <i class="fas fa-guitar"></i></span>
-<h5 class="font-weight-bold mx-1">${item.brand}></h5>
+<h5 class="font-weight-bold mx-1">${item.brand}</h5>
 <h5 class="mx-1">${item.model}</h5>
 </div>
 <!--end of single item -->`
